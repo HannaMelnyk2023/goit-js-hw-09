@@ -48,7 +48,7 @@ startBtn.addEventListener('click', () => {
             return;
         }
         const timeParts = convertMs(left);
-        // updateDisplayприймає об'єкт!!! не left
+        // updateDisplay приймає об'єкт!!! не left
         updateDisplay(timeParts);
 
     }, 1000);
